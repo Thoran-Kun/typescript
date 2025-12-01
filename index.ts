@@ -140,4 +140,5 @@ interface users<A> {
     city: string
     phone: number
     cap: number 
+    image: A
 }
