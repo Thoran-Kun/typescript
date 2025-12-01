@@ -128,5 +128,16 @@ const cars: Auto = {
 // servono per renderle più versatili
 
 // 19) È possibile avere più tipi generici in un'interfaccia?
+// Si, è possibile avere più tipi GENERICS per rendere le nostre interfacce più versatili come detto prima 
 
-// 20) Crea un'interfaccia generica per una risposta API.  
+
+
+// 20) Crea un'interfaccia generica per una risposta API.
+interface users<A> {
+    name: string
+    lastName: string
+    id: string | number
+    city: string
+    phone: number
+    cap: number 
+}

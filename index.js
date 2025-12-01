@@ -60,8 +60,3 @@ var cars = {
     numbOfPassengers: 5,
     modelOfCars: "Audi"
 };
-// 18) Cosa sono i Generics in TypeScript?
-// Un GENERICS possiamo vederlo come un PARAMETRO delle funzioni, sono ARGOMENTI per le interfacce
-// servono per renderle più versatili
-// 19) È possibile avere più tipi generici in un'interfaccia?
-// 20) Crea un'interfaccia generica per una risposta API.  
